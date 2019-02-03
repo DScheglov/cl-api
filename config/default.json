@@ -1,0 +1,18 @@
+{
+  "db": {
+    "database": "cl_db",
+    "username": "postgres",
+    "password": "secret",
+    "options": {
+      "dialect": "postgres",
+      "host": "postgres_db",
+      "port": 5432,
+      "logging": false
+    }
+  },
+  "server": {
+    "port": 8080,
+    "mountPath": "/",
+    "forks": null
+  }
+}

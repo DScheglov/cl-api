@@ -1,0 +1,27 @@
+{
+  "name": "cl-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:init": "cross-env PATH=\"./node_modules/.bin:$PATH\" eslint --init",
+    "lint": "cross-env PATH=\"./node_modules/.bin:$PATH\" eslint ./lib"
+  },
+  "author": "Dmitry Scheglov <dmitry.scheglov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-winston": "^3.0.1",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.13.0"
+  }
+}
